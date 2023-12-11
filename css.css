@@ -1,0 +1,104 @@
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+
+  #alper {
+    font-weight: bolder; 
+    color:  black; 
+    font-size: 80px; 
+    display: inline-block; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #menubar {
+    text-align: center;
+    padding: 0;
+  }
+
+  #menubar li {
+    display: inline;
+    font-size: xx-large;
+    padding: 10px 20px; 
+    margin: 100px;
+  }
+
+  #menubar li a {
+    padding:40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    color: inherit;
+  }
+
+  #login {
+    width: 300px;
+    float: left;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"],
+  input[type="reset"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 20px;
+    background-color: rgba(54, 54, 54, 0.521);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #616161;
+  }
+
+  .signup {
+    text-decoration: none;
+    color: blue;
+  }
+
+  footer {
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  }
+
+  #foot {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #foot li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 50px;
+  }
+
+  #foot li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;    
+  }
